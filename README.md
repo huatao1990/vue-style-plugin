@@ -1,7 +1,6 @@
 ## vue-style-plugin
 #### 描述
-        在用做小程序项目中的时候,遇到个问题,框架用的是[mpvue](https://github.com/Meituan-Dianping/mpvue),
-在用[convremvw-loader](https://github.com/huatao1990/convremvw-loader)和px2rpx-loader分别转换单位之后,发现这种组件动态传参变换style是不支持预转换的,所以这就可能导致我们不能自由的根据设计稿编写px了,但是为了团队中小伙伴能愉快的开发,只能解决掉,因为像px2rpx convremvw这种的loader都是在打包阶段运行的,但我们的style是动态的,所以解决就只能在运行的时候解决了,mpvue基本上继承了vue的方法，生命周期等，所以也有computed计算属性，我们可以在computed的时候调用我们的vue-style-plugin插件，如下
+    在用做小程序项目中的时候,遇到个问题,框架用的是[mpvue](https://github.com/Meituan-Dianping/mpvue),在用[convremvw-loader](https://github.com/huatao1990/convremvw-loader)和px2rpx-loader分别转换单位之后,发现这种组件动态传参变换style是不支持预转换的,所以这就可能导致我们不能自由的根据设计稿编写px了,但是为了团队中小伙伴能愉快的开发,只能解决掉,因为像px2rpx convremvw这种的loader都是在打包阶段运行的,但我们的style是动态的,所以解决就只能在运行的时候解决了,mpvue基本上继承了vue的方法，生命周期等，所以也有computed计算属性，我们可以在computed的时候调用我们的vue-style-plugin插件，如下
 #### 安装
 ```
 npm install vue-style-plugin
