@@ -22,4 +22,4 @@ convStyle.install = function (Vue,options={}) {
     }
 }
 
-module.export = convStyle
+export default  convStyle
