@@ -36,7 +36,7 @@ export default {
     computed: {
         starStyle () {
             let str = `width: ${this.size}rpx `
-            return **this.$convstyle(str)**
+            return this.$convstyle(str)
         }
     }
 }
